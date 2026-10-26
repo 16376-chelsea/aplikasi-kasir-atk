@@ -4,3 +4,55 @@ body {
     padding: 20px;
     background-color: #f4f6f9;
 }
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-box {
+    background-color: white;
+    width: 100%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h1 {
+    text-align: center;
+    color: #1e3a5f;
+}
+
+.login-box p {
+    text-align: center;
+    color: #555;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
